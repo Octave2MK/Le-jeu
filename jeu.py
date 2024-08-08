@@ -57,16 +57,16 @@ class MonJeu():
     self.gameMorel.mainloop()
 
 # Instanciation de l'objet MonJeu
-jeu = MonJeu()
+#jeu = MonJeu()
 # Lancement de la boucle principale
-jeu.mainloop()
+#jeu.mainloop()
 
 
-#Bonjour = lambda:print(" 👉👉 Tapez ”1” pou OUI et ”2” pour NON.")
+Bonjour = lambda:print(" 👉👉 Tapez ”1” pour OUI et ”2” pour NON.")
 
-#nomJoueur = str(input("Entrez votre nom🤩:\n🖋🖊🖍 "))
+nomJoueur = str(input("Entrez votre nom🤩:\n🖋🖊🖍 "))
 print("")
-#print("Salut 🤖❗,", nomJoueur+"🤩")
+print("Salut 🤖❗,", nomJoueur+"🤩")
 
 def instruction1():
 
@@ -107,11 +107,11 @@ def instruction1():
         print("")
         instruction1()
     break
-#instruction1()
+instruction1()
 print("")
 
 
-#Bonjour()
+Bonjour()
 def Niveau1():
   OUI = 1
   NON = 2
@@ -367,4 +367,4 @@ def Niveau1():
     else:
       print("A bientôt👋👋👋.")
       print("")
-#Niveau1()
+Niveau1()
